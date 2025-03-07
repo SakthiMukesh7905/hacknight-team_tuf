@@ -1,0 +1,713 @@
+[
+    {
+        "Exercise Name":"Seated Knee Extension",
+        "Rehab Category":"Knee Replacement",
+        "Difficulty Level":"Beginner",
+        "Description":"Strengthens quadriceps.",
+        "Muscle Groups Targeted":"Quadriceps",
+        "Recommended Sets & Reps":"3 sets of 10 reps",
+        "Video URL":"video_url_knee_1"
+    },
+    {
+        "Exercise Name":"Heel Slides",
+        "Rehab Category":"Knee Replacement",
+        "Difficulty Level":"Beginner",
+        "Description":"Improves knee flexibility.",
+        "Muscle Groups Targeted":"Hamstrings, Quadriceps",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_knee_2"
+    },
+    {
+        "Exercise Name":"Ankle Pumps",
+        "Rehab Category":"Knee Replacement",
+        "Difficulty Level":"Beginner",
+        "Description":"Prevents blood clots.",
+        "Muscle Groups Targeted":"Calves",
+        "Recommended Sets & Reps":"3 sets of 15 reps",
+        "Video URL":"video_url_knee_3"
+    },
+    {
+        "Exercise Name":"Straight Leg Raise",
+        "Rehab Category":"Knee Replacement",
+        "Difficulty Level":"Intermediate",
+        "Description":"Enhances quadriceps strength.",
+        "Muscle Groups Targeted":"Quadriceps",
+        "Recommended Sets & Reps":"3 sets of 10 reps",
+        "Video URL":"video_url_knee_4"
+    },
+    {
+        "Exercise Name":"Partial Squats",
+        "Rehab Category":"Knee Replacement",
+        "Difficulty Level":"Intermediate",
+        "Description":"Builds strength in knee joints.",
+        "Muscle Groups Targeted":"Quadriceps, Glutes",
+        "Recommended Sets & Reps":"3 sets of 10 reps",
+        "Video URL":"video_url_knee_5"
+    },
+    {
+        "Exercise Name":"Step-Ups",
+        "Rehab Category":"Knee Replacement",
+        "Difficulty Level":"Intermediate",
+        "Description":"Improves stability.",
+        "Muscle Groups Targeted":"Quadriceps, Glutes",
+        "Recommended Sets & Reps":"3 sets of 10 reps",
+        "Video URL":"video_url_knee_6"
+    },
+    {
+        "Exercise Name":"Wall Sits",
+        "Rehab Category":"Knee Replacement",
+        "Difficulty Level":"Advanced",
+        "Description":"Strengthens lower body endurance.",
+        "Muscle Groups Targeted":"Quadriceps, Hamstrings, Glutes",
+        "Recommended Sets & Reps":"3 sets of 30 seconds",
+        "Video URL":"video_url_knee_7"
+    },
+    {
+        "Exercise Name":"Lunges",
+        "Rehab Category":"Knee Replacement",
+        "Difficulty Level":"Advanced",
+        "Description":"Improves function and balance.",
+        "Muscle Groups Targeted":"Quadriceps, Glutes",
+        "Recommended Sets & Reps":"3 sets of 10 reps per leg",
+        "Video URL":"video_url_knee_8"
+    },
+    {
+        "Exercise Name":"Leg Press",
+        "Rehab Category":"Knee Replacement",
+        "Difficulty Level":"Advanced",
+        "Description":"Enhances joint strength.",
+        "Muscle Groups Targeted":"Quadriceps, Hamstrings",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_knee_9"
+    },
+    {
+        "Exercise Name":"ACL Exercise 1",
+        "Rehab Category":"ACL Recovery",
+        "Difficulty Level":"Beginner",
+        "Description":"Exercise to aid ACL Recovery.",
+        "Muscle Groups Targeted":"Knee, Hamstrings",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_acl_1"
+    },
+    {
+        "Exercise Name":"ACL Exercise 2",
+        "Rehab Category":"ACL Recovery",
+        "Difficulty Level":"Intermediate",
+        "Description":"Exercise to aid ACL Recovery.",
+        "Muscle Groups Targeted":"Knee, Hamstrings",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_acl_2"
+    },
+    {
+        "Exercise Name":"ACL Exercise 3",
+        "Rehab Category":"ACL Recovery",
+        "Difficulty Level":"Advanced",
+        "Description":"Exercise to aid ACL Recovery.",
+        "Muscle Groups Targeted":"Knee, Hamstrings",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_acl_3"
+    },
+    {
+        "Exercise Name":"ACL Exercise 4",
+        "Rehab Category":"ACL Recovery",
+        "Difficulty Level":"Beginner",
+        "Description":"Exercise to aid ACL Recovery.",
+        "Muscle Groups Targeted":"Knee, Hamstrings",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_acl_4"
+    },
+    {
+        "Exercise Name":"ACL Exercise 5",
+        "Rehab Category":"ACL Recovery",
+        "Difficulty Level":"Intermediate",
+        "Description":"Exercise to aid ACL Recovery.",
+        "Muscle Groups Targeted":"Knee, Hamstrings",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_acl_5"
+    },
+    {
+        "Exercise Name":"ACL Exercise 6",
+        "Rehab Category":"ACL Recovery",
+        "Difficulty Level":"Advanced",
+        "Description":"Exercise to aid ACL Recovery.",
+        "Muscle Groups Targeted":"Knee, Hamstrings",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_acl_6"
+    },
+    {
+        "Exercise Name":"ACL Exercise 7",
+        "Rehab Category":"ACL Recovery",
+        "Difficulty Level":"Beginner",
+        "Description":"Exercise to aid ACL Recovery.",
+        "Muscle Groups Targeted":"Knee, Hamstrings",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_acl_7"
+    },
+    {
+        "Exercise Name":"ACL Exercise 8",
+        "Rehab Category":"ACL Recovery",
+        "Difficulty Level":"Intermediate",
+        "Description":"Exercise to aid ACL Recovery.",
+        "Muscle Groups Targeted":"Knee, Hamstrings",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_acl_8"
+    },
+    {
+        "Exercise Name":"ACL Exercise 9",
+        "Rehab Category":"ACL Recovery",
+        "Difficulty Level":"Advanced",
+        "Description":"Exercise to aid ACL Recovery.",
+        "Muscle Groups Targeted":"Knee, Hamstrings",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_acl_9"
+    },
+    {
+        "Exercise Name":"ACL Exercise 10",
+        "Rehab Category":"ACL Recovery",
+        "Difficulty Level":"Beginner",
+        "Description":"Exercise to aid ACL Recovery.",
+        "Muscle Groups Targeted":"Knee, Hamstrings",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_acl_10"
+    },
+    {
+        "Exercise Name":"Hip Surgery Exercise 1",
+        "Rehab Category":"Hip Surgery",
+        "Difficulty Level":"Beginner",
+        "Description":"Exercise to improve hip mobility and strength.",
+        "Muscle Groups Targeted":"Hip, Core",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_hip_1"
+    },
+    {
+        "Exercise Name":"Hip Surgery Exercise 2",
+        "Rehab Category":"Hip Surgery",
+        "Difficulty Level":"Intermediate",
+        "Description":"Exercise to improve hip mobility and strength.",
+        "Muscle Groups Targeted":"Hip, Core",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_hip_2"
+    },
+    {
+        "Exercise Name":"Hip Surgery Exercise 3",
+        "Rehab Category":"Hip Surgery",
+        "Difficulty Level":"Advanced",
+        "Description":"Exercise to improve hip mobility and strength.",
+        "Muscle Groups Targeted":"Hip, Core",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_hip_3"
+    },
+    {
+        "Exercise Name":"Hip Surgery Exercise 4",
+        "Rehab Category":"Hip Surgery",
+        "Difficulty Level":"Beginner",
+        "Description":"Exercise to improve hip mobility and strength.",
+        "Muscle Groups Targeted":"Hip, Core",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_hip_4"
+    },
+    {
+        "Exercise Name":"Hip Surgery Exercise 5",
+        "Rehab Category":"Hip Surgery",
+        "Difficulty Level":"Intermediate",
+        "Description":"Exercise to improve hip mobility and strength.",
+        "Muscle Groups Targeted":"Hip, Core",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_hip_5"
+    },
+    {
+        "Exercise Name":"Hip Surgery Exercise 6",
+        "Rehab Category":"Hip Surgery",
+        "Difficulty Level":"Advanced",
+        "Description":"Exercise to improve hip mobility and strength.",
+        "Muscle Groups Targeted":"Hip, Core",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_hip_6"
+    },
+    {
+        "Exercise Name":"Hip Surgery Exercise 7",
+        "Rehab Category":"Hip Surgery",
+        "Difficulty Level":"Beginner",
+        "Description":"Exercise to improve hip mobility and strength.",
+        "Muscle Groups Targeted":"Hip, Core",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_hip_7"
+    },
+    {
+        "Exercise Name":"Hip Surgery Exercise 8",
+        "Rehab Category":"Hip Surgery",
+        "Difficulty Level":"Intermediate",
+        "Description":"Exercise to improve hip mobility and strength.",
+        "Muscle Groups Targeted":"Hip, Core",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_hip_8"
+    },
+    {
+        "Exercise Name":"Hip Surgery Exercise 9",
+        "Rehab Category":"Hip Surgery",
+        "Difficulty Level":"Advanced",
+        "Description":"Exercise to improve hip mobility and strength.",
+        "Muscle Groups Targeted":"Hip, Core",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_hip_9"
+    },
+    {
+        "Exercise Name":"Hip Surgery Exercise 10",
+        "Rehab Category":"Hip Surgery",
+        "Difficulty Level":"Beginner",
+        "Description":"Exercise to improve hip mobility and strength.",
+        "Muscle Groups Targeted":"Hip, Core",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_hip_10"
+    },
+    {
+        "Exercise Name":"Cardiac Rehab Exercise 1",
+        "Rehab Category":"Post-Heart Surgery",
+        "Difficulty Level":"Beginner",
+        "Description":"Cardiac recovery exercise to improve endurance.",
+        "Muscle Groups Targeted":"Heart, Full Body",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_cardiac_1"
+    },
+    {
+        "Exercise Name":"Cardiac Rehab Exercise 2",
+        "Rehab Category":"Post-Heart Surgery",
+        "Difficulty Level":"Intermediate",
+        "Description":"Cardiac recovery exercise to improve endurance.",
+        "Muscle Groups Targeted":"Heart, Full Body",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_cardiac_2"
+    },
+    {
+        "Exercise Name":"Cardiac Rehab Exercise 3",
+        "Rehab Category":"Post-Heart Surgery",
+        "Difficulty Level":"Advanced",
+        "Description":"Cardiac recovery exercise to improve endurance.",
+        "Muscle Groups Targeted":"Heart, Full Body",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_cardiac_3"
+    },
+    {
+        "Exercise Name":"Cardiac Rehab Exercise 4",
+        "Rehab Category":"Post-Heart Surgery",
+        "Difficulty Level":"Beginner",
+        "Description":"Cardiac recovery exercise to improve endurance.",
+        "Muscle Groups Targeted":"Heart, Full Body",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_cardiac_4"
+    },
+    {
+        "Exercise Name":"Cardiac Rehab Exercise 5",
+        "Rehab Category":"Post-Heart Surgery",
+        "Difficulty Level":"Intermediate",
+        "Description":"Cardiac recovery exercise to improve endurance.",
+        "Muscle Groups Targeted":"Heart, Full Body",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_cardiac_5"
+    },
+    {
+        "Exercise Name":"Cardiac Rehab Exercise 6",
+        "Rehab Category":"Post-Heart Surgery",
+        "Difficulty Level":"Advanced",
+        "Description":"Cardiac recovery exercise to improve endurance.",
+        "Muscle Groups Targeted":"Heart, Full Body",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_cardiac_6"
+    },
+    {
+        "Exercise Name":"Cardiac Rehab Exercise 7",
+        "Rehab Category":"Post-Heart Surgery",
+        "Difficulty Level":"Beginner",
+        "Description":"Cardiac recovery exercise to improve endurance.",
+        "Muscle Groups Targeted":"Heart, Full Body",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_cardiac_7"
+    },
+    {
+        "Exercise Name":"Cardiac Rehab Exercise 8",
+        "Rehab Category":"Post-Heart Surgery",
+        "Difficulty Level":"Intermediate",
+        "Description":"Cardiac recovery exercise to improve endurance.",
+        "Muscle Groups Targeted":"Heart, Full Body",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_cardiac_8"
+    },
+    {
+        "Exercise Name":"Cardiac Rehab Exercise 9",
+        "Rehab Category":"Post-Heart Surgery",
+        "Difficulty Level":"Advanced",
+        "Description":"Cardiac recovery exercise to improve endurance.",
+        "Muscle Groups Targeted":"Heart, Full Body",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_cardiac_9"
+    },
+    {
+        "Exercise Name":"Cardiac Rehab Exercise 10",
+        "Rehab Category":"Post-Heart Surgery",
+        "Difficulty Level":"Beginner",
+        "Description":"Cardiac recovery exercise to improve endurance.",
+        "Muscle Groups Targeted":"Heart, Full Body",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_cardiac_10"
+    },
+    {
+        "Exercise Name":"Cardiac Strength Exercise 1",
+        "Rehab Category":"Cardiac Strength Training",
+        "Difficulty Level":"Beginner",
+        "Description":"Strength training for cardiac rehab.",
+        "Muscle Groups Targeted":"Upper Body, Core",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_cardio_strength_1"
+    },
+    {
+        "Exercise Name":"Cardiac Strength Exercise 2",
+        "Rehab Category":"Cardiac Strength Training",
+        "Difficulty Level":"Intermediate",
+        "Description":"Strength training for cardiac rehab.",
+        "Muscle Groups Targeted":"Upper Body, Core",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_cardio_strength_2"
+    },
+    {
+        "Exercise Name":"Cardiac Strength Exercise 3",
+        "Rehab Category":"Cardiac Strength Training",
+        "Difficulty Level":"Advanced",
+        "Description":"Strength training for cardiac rehab.",
+        "Muscle Groups Targeted":"Upper Body, Core",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_cardio_strength_3"
+    },
+    {
+        "Exercise Name":"Cardiac Strength Exercise 4",
+        "Rehab Category":"Cardiac Strength Training",
+        "Difficulty Level":"Beginner",
+        "Description":"Strength training for cardiac rehab.",
+        "Muscle Groups Targeted":"Upper Body, Core",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_cardio_strength_4"
+    },
+    {
+        "Exercise Name":"Cardiac Strength Exercise 5",
+        "Rehab Category":"Cardiac Strength Training",
+        "Difficulty Level":"Intermediate",
+        "Description":"Strength training for cardiac rehab.",
+        "Muscle Groups Targeted":"Upper Body, Core",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_cardio_strength_5"
+    },
+    {
+        "Exercise Name":"Cardiac Strength Exercise 6",
+        "Rehab Category":"Cardiac Strength Training",
+        "Difficulty Level":"Advanced",
+        "Description":"Strength training for cardiac rehab.",
+        "Muscle Groups Targeted":"Upper Body, Core",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_cardio_strength_6"
+    },
+    {
+        "Exercise Name":"Cardiac Strength Exercise 7",
+        "Rehab Category":"Cardiac Strength Training",
+        "Difficulty Level":"Beginner",
+        "Description":"Strength training for cardiac rehab.",
+        "Muscle Groups Targeted":"Upper Body, Core",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_cardio_strength_7"
+    },
+    {
+        "Exercise Name":"Cardiac Strength Exercise 8",
+        "Rehab Category":"Cardiac Strength Training",
+        "Difficulty Level":"Intermediate",
+        "Description":"Strength training for cardiac rehab.",
+        "Muscle Groups Targeted":"Upper Body, Core",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_cardio_strength_8"
+    },
+    {
+        "Exercise Name":"Cardiac Strength Exercise 9",
+        "Rehab Category":"Cardiac Strength Training",
+        "Difficulty Level":"Advanced",
+        "Description":"Strength training for cardiac rehab.",
+        "Muscle Groups Targeted":"Upper Body, Core",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_cardio_strength_9"
+    },
+    {
+        "Exercise Name":"Cardiac Strength Exercise 10",
+        "Rehab Category":"Cardiac Strength Training",
+        "Difficulty Level":"Beginner",
+        "Description":"Strength training for cardiac rehab.",
+        "Muscle Groups Targeted":"Upper Body, Core",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_cardio_strength_10"
+    },
+    {
+        "Exercise Name":"Stroke Recovery Exercise 1",
+        "Rehab Category":"Stroke Recovery",
+        "Difficulty Level":"Beginner",
+        "Description":"Stroke rehabilitation exercise to regain mobility.",
+        "Muscle Groups Targeted":"Arms, Legs",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_stroke_1"
+    },
+    {
+        "Exercise Name":"Stroke Recovery Exercise 2",
+        "Rehab Category":"Stroke Recovery",
+        "Difficulty Level":"Intermediate",
+        "Description":"Stroke rehabilitation exercise to regain mobility.",
+        "Muscle Groups Targeted":"Arms, Legs",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_stroke_2"
+    },
+    {
+        "Exercise Name":"Stroke Recovery Exercise 3",
+        "Rehab Category":"Stroke Recovery",
+        "Difficulty Level":"Advanced",
+        "Description":"Stroke rehabilitation exercise to regain mobility.",
+        "Muscle Groups Targeted":"Arms, Legs",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_stroke_3"
+    },
+    {
+        "Exercise Name":"Stroke Recovery Exercise 4",
+        "Rehab Category":"Stroke Recovery",
+        "Difficulty Level":"Beginner",
+        "Description":"Stroke rehabilitation exercise to regain mobility.",
+        "Muscle Groups Targeted":"Arms, Legs",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_stroke_4"
+    },
+    {
+        "Exercise Name":"Stroke Recovery Exercise 5",
+        "Rehab Category":"Stroke Recovery",
+        "Difficulty Level":"Intermediate",
+        "Description":"Stroke rehabilitation exercise to regain mobility.",
+        "Muscle Groups Targeted":"Arms, Legs",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_stroke_5"
+    },
+    {
+        "Exercise Name":"Stroke Recovery Exercise 6",
+        "Rehab Category":"Stroke Recovery",
+        "Difficulty Level":"Advanced",
+        "Description":"Stroke rehabilitation exercise to regain mobility.",
+        "Muscle Groups Targeted":"Arms, Legs",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_stroke_6"
+    },
+    {
+        "Exercise Name":"Stroke Recovery Exercise 7",
+        "Rehab Category":"Stroke Recovery",
+        "Difficulty Level":"Beginner",
+        "Description":"Stroke rehabilitation exercise to regain mobility.",
+        "Muscle Groups Targeted":"Arms, Legs",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_stroke_7"
+    },
+    {
+        "Exercise Name":"Stroke Recovery Exercise 8",
+        "Rehab Category":"Stroke Recovery",
+        "Difficulty Level":"Intermediate",
+        "Description":"Stroke rehabilitation exercise to regain mobility.",
+        "Muscle Groups Targeted":"Arms, Legs",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_stroke_8"
+    },
+    {
+        "Exercise Name":"Stroke Recovery Exercise 9",
+        "Rehab Category":"Stroke Recovery",
+        "Difficulty Level":"Advanced",
+        "Description":"Stroke rehabilitation exercise to regain mobility.",
+        "Muscle Groups Targeted":"Arms, Legs",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_stroke_9"
+    },
+    {
+        "Exercise Name":"Stroke Recovery Exercise 10",
+        "Rehab Category":"Stroke Recovery",
+        "Difficulty Level":"Beginner",
+        "Description":"Stroke rehabilitation exercise to regain mobility.",
+        "Muscle Groups Targeted":"Arms, Legs",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_stroke_10"
+    },
+    {
+        "Exercise Name":"Spinal Injury Exercise 1",
+        "Rehab Category":"Spinal Injury Rehab",
+        "Difficulty Level":"Beginner",
+        "Description":"Spinal rehabilitation exercise to restore movement.",
+        "Muscle Groups Targeted":"Back, Core",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_spinal_1"
+    },
+    {
+        "Exercise Name":"Spinal Injury Exercise 2",
+        "Rehab Category":"Spinal Injury Rehab",
+        "Difficulty Level":"Intermediate",
+        "Description":"Spinal rehabilitation exercise to restore movement.",
+        "Muscle Groups Targeted":"Back, Core",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_spinal_2"
+    },
+    {
+        "Exercise Name":"Spinal Injury Exercise 3",
+        "Rehab Category":"Spinal Injury Rehab",
+        "Difficulty Level":"Advanced",
+        "Description":"Spinal rehabilitation exercise to restore movement.",
+        "Muscle Groups Targeted":"Back, Core",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_spinal_3"
+    },
+    {
+        "Exercise Name":"Spinal Injury Exercise 4",
+        "Rehab Category":"Spinal Injury Rehab",
+        "Difficulty Level":"Beginner",
+        "Description":"Spinal rehabilitation exercise to restore movement.",
+        "Muscle Groups Targeted":"Back, Core",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_spinal_4"
+    },
+    {
+        "Exercise Name":"Spinal Injury Exercise 5",
+        "Rehab Category":"Spinal Injury Rehab",
+        "Difficulty Level":"Intermediate",
+        "Description":"Spinal rehabilitation exercise to restore movement.",
+        "Muscle Groups Targeted":"Back, Core",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_spinal_5"
+    },
+    {
+        "Exercise Name":"Spinal Injury Exercise 6",
+        "Rehab Category":"Spinal Injury Rehab",
+        "Difficulty Level":"Advanced",
+        "Description":"Spinal rehabilitation exercise to restore movement.",
+        "Muscle Groups Targeted":"Back, Core",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_spinal_6"
+    },
+    {
+        "Exercise Name":"Spinal Injury Exercise 7",
+        "Rehab Category":"Spinal Injury Rehab",
+        "Difficulty Level":"Beginner",
+        "Description":"Spinal rehabilitation exercise to restore movement.",
+        "Muscle Groups Targeted":"Back, Core",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_spinal_7"
+    },
+    {
+        "Exercise Name":"Spinal Injury Exercise 8",
+        "Rehab Category":"Spinal Injury Rehab",
+        "Difficulty Level":"Intermediate",
+        "Description":"Spinal rehabilitation exercise to restore movement.",
+        "Muscle Groups Targeted":"Back, Core",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_spinal_8"
+    },
+    {
+        "Exercise Name":"Spinal Injury Exercise 9",
+        "Rehab Category":"Spinal Injury Rehab",
+        "Difficulty Level":"Advanced",
+        "Description":"Spinal rehabilitation exercise to restore movement.",
+        "Muscle Groups Targeted":"Back, Core",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_spinal_9"
+    },
+    {
+        "Exercise Name":"Spinal Injury Exercise 10",
+        "Rehab Category":"Spinal Injury Rehab",
+        "Difficulty Level":"Beginner",
+        "Description":"Spinal rehabilitation exercise to restore movement.",
+        "Muscle Groups Targeted":"Back, Core",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_spinal_10"
+    },
+    {
+        "Exercise Name":"Cognitive & Motor Skill Exercise 1",
+        "Rehab Category":"Cognitive & Motor Skills",
+        "Difficulty Level":"Beginner",
+        "Description":"Motor skill training to improve coordination.",
+        "Muscle Groups Targeted":"Brain, Hands",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_cognitive_1"
+    },
+    {
+        "Exercise Name":"Cognitive & Motor Skill Exercise 2",
+        "Rehab Category":"Cognitive & Motor Skills",
+        "Difficulty Level":"Intermediate",
+        "Description":"Motor skill training to improve coordination.",
+        "Muscle Groups Targeted":"Brain, Hands",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_cognitive_2"
+    },
+    {
+        "Exercise Name":"Cognitive & Motor Skill Exercise 3",
+        "Rehab Category":"Cognitive & Motor Skills",
+        "Difficulty Level":"Advanced",
+        "Description":"Motor skill training to improve coordination.",
+        "Muscle Groups Targeted":"Brain, Hands",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_cognitive_3"
+    },
+    {
+        "Exercise Name":"Cognitive & Motor Skill Exercise 4",
+        "Rehab Category":"Cognitive & Motor Skills",
+        "Difficulty Level":"Beginner",
+        "Description":"Motor skill training to improve coordination.",
+        "Muscle Groups Targeted":"Brain, Hands",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_cognitive_4"
+    },
+    {
+        "Exercise Name":"Cognitive & Motor Skill Exercise 5",
+        "Rehab Category":"Cognitive & Motor Skills",
+        "Difficulty Level":"Intermediate",
+        "Description":"Motor skill training to improve coordination.",
+        "Muscle Groups Targeted":"Brain, Hands",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_cognitive_5"
+    },
+    {
+        "Exercise Name":"Cognitive & Motor Skill Exercise 6",
+        "Rehab Category":"Cognitive & Motor Skills",
+        "Difficulty Level":"Advanced",
+        "Description":"Motor skill training to improve coordination.",
+        "Muscle Groups Targeted":"Brain, Hands",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_cognitive_6"
+    },
+    {
+        "Exercise Name":"Cognitive & Motor Skill Exercise 7",
+        "Rehab Category":"Cognitive & Motor Skills",
+        "Difficulty Level":"Beginner",
+        "Description":"Motor skill training to improve coordination.",
+        "Muscle Groups Targeted":"Brain, Hands",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_cognitive_7"
+    },
+    {
+        "Exercise Name":"Cognitive & Motor Skill Exercise 8",
+        "Rehab Category":"Cognitive & Motor Skills",
+        "Difficulty Level":"Intermediate",
+        "Description":"Motor skill training to improve coordination.",
+        "Muscle Groups Targeted":"Brain, Hands",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_cognitive_8"
+    },
+    {
+        "Exercise Name":"Cognitive & Motor Skill Exercise 9",
+        "Rehab Category":"Cognitive & Motor Skills",
+        "Difficulty Level":"Advanced",
+        "Description":"Motor skill training to improve coordination.",
+        "Muscle Groups Targeted":"Brain, Hands",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_cognitive_9"
+    },
+    {
+        "Exercise Name":"Cognitive & Motor Skill Exercise 10",
+        "Rehab Category":"Cognitive & Motor Skills",
+        "Difficulty Level":"Beginner",
+        "Description":"Motor skill training to improve coordination.",
+        "Muscle Groups Targeted":"Brain, Hands",
+        "Recommended Sets & Reps":"3 sets of 12 reps",
+        "Video URL":"video_url_cognitive_10"
+    }
+]

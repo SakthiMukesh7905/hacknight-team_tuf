@@ -1,0 +1,731 @@
+[
+    {
+        "Exercise Name": "Seated Knee Extension",
+        "Rehab Category": "Knee Replacement",
+        "Difficulty Level": "Beginner",
+        "Description": "Strengthens the quadriceps to improve knee stability.",
+        "Muscle Groups Targeted": "Quadriceps",
+        "Recommended Sets & Reps": "3 sets of 10 reps",
+        "Video URL": "video_url_knee_1"
+    },
+    {
+        "Exercise Name": "Heel Slides",
+        "Rehab Category": "Knee Replacement",
+        "Difficulty Level": "Beginner",
+        "Description": "Improves knee flexibility and range of motion.",
+        "Muscle Groups Targeted": "Hamstrings, Quadriceps",
+        "Recommended Sets & Reps": "3 sets of 12 reps",
+        "Video URL": "video_url_knee_2"
+    },
+    {
+        "Exercise Name": "Ankle Pumps",
+        "Rehab Category": "Knee Replacement",
+        "Difficulty Level": "Beginner",
+        "Description": "Helps with circulation and prevents swelling.",
+        "Muscle Groups Targeted": "Calves",
+        "Recommended Sets & Reps": "3 sets of 15 reps",
+        "Video URL": "video_url_knee_3"
+    },
+    {
+        "Exercise Name": "Straight Leg Raise",
+        "Rehab Category": "Knee Replacement",
+        "Difficulty Level": "Intermediate",
+        "Description": "Enhances quadriceps strength without bending the knee.",
+        "Muscle Groups Targeted": "Quadriceps",
+        "Recommended Sets & Reps": "3 sets of 10 reps",
+        "Video URL": "video_url_knee_4"
+    },
+    {
+        "Exercise Name": "Partial Squats",
+        "Rehab Category": "Knee Replacement",
+        "Difficulty Level": "Intermediate",
+        "Description": "Builds strength and stability in knee joints.",
+        "Muscle Groups Targeted": "Quadriceps, Glutes",
+        "Recommended Sets & Reps": "3 sets of 10 reps",
+        "Video URL": "video_url_knee_5"
+    },
+    {
+        "Exercise Name": "Step-Ups",
+        "Rehab Category": "Knee Replacement",
+        "Difficulty Level": "Intermediate",
+        "Description": "Improves knee stability and mobility.",
+        "Muscle Groups Targeted": "Quadriceps, Glutes",
+        "Recommended Sets & Reps": "3 sets of 10 reps per leg",
+        "Video URL": "video_url_knee_6"
+    },
+    {
+        "Exercise Name": "Wall Sits",
+        "Rehab Category": "Knee Replacement",
+        "Difficulty Level": "Advanced",
+        "Description": "Strengthens lower body endurance and stability.",
+        "Muscle Groups Targeted": "Quadriceps, Hamstrings, Glutes",
+        "Recommended Sets & Reps": "3 sets of 30 seconds",
+        "Video URL": "video_url_knee_7"
+    },
+    {
+        "Exercise Name": "Lunges",
+        "Rehab Category": "Knee Replacement",
+        "Difficulty Level": "Advanced",
+        "Description": "Improves knee function and balance.",
+        "Muscle Groups Targeted": "Quadriceps, Glutes",
+        "Recommended Sets & Reps": "3 sets of 10 reps per leg",
+        "Video URL": "video_url_knee_8"
+    },
+    {
+        "Exercise Name": "Leg Press",
+        "Rehab Category": "Knee Replacement",
+        "Difficulty Level": "Advanced",
+        "Description": "Enhances knee joint strength with controlled resistance.",
+        "Muscle Groups Targeted": "Quadriceps, Hamstrings",
+        "Recommended Sets & Reps": "3 sets of 12 reps",
+        "Video URL": "video_url_knee_9"
+    },
+    {
+        "Exercise Name": "Quad Sets",
+        "Rehab Category": "ACL Recovery",
+        "Difficulty Level": "Beginner",
+        "Description": "Activates quadriceps without knee movement.",
+        "Muscle Groups Targeted": "Quadriceps",
+        "Recommended Sets & Reps": "4 sets of 10 reps",
+        "Video URL": "video_url_acl_1"
+    },
+    {
+        "Exercise Name": "Hamstring Curls",
+        "Rehab Category": "ACL Recovery",
+        "Difficulty Level": "Beginner",
+        "Description": "Strengthens hamstrings to support knee stability.",
+        "Muscle Groups Targeted": "Hamstrings",
+        "Recommended Sets & Reps": "3 sets of 12 reps",
+        "Video URL": "video_url_acl_2"
+    },
+    {
+        "Exercise Name": "Seated Heel Slides",
+        "Rehab Category": "ACL Recovery",
+        "Difficulty Level": "Beginner",
+        "Description": "Improves knee flexibility after surgery.",
+        "Muscle Groups Targeted": "Hamstrings",
+        "Recommended Sets & Reps": "3 sets of 12 reps",
+        "Video URL": "video_url_acl_3"
+    },
+    {
+        "Exercise Name": "Step-Ups",
+        "Rehab Category": "ACL Recovery",
+        "Difficulty Level": "Intermediate",
+        "Description": "Improves knee strength and balance.",
+        "Muscle Groups Targeted": "Quadriceps, Glutes",
+        "Recommended Sets & Reps": "3 sets of 10 reps per leg",
+        "Video URL": "video_url_acl_4"
+    },
+    {
+        "Exercise Name": "Single Leg Balance",
+        "Rehab Category": "ACL Recovery",
+        "Difficulty Level": "Intermediate",
+        "Description": "Enhances stability and joint control.",
+        "Muscle Groups Targeted": "Glutes, Core",
+        "Recommended Sets & Reps": "3 sets of 15 seconds per leg",
+        "Video URL": "video_url_acl_5"
+    },
+    {
+        "Exercise Name": "Mini Squats",
+        "Rehab Category": "ACL Recovery",
+        "Difficulty Level": "Intermediate",
+        "Description": "Strengthens leg muscles with controlled movement.",
+        "Muscle Groups Targeted": "Quadriceps, Glutes",
+        "Recommended Sets & Reps": "3 sets of 10 reps",
+        "Video URL": "video_url_acl_6"
+    },
+    {
+        "Exercise Name": "Bulgarian Split Squats",
+        "Rehab Category": "ACL Recovery",
+        "Difficulty Level": "Advanced",
+        "Description": "Improves unilateral knee strength and mobility.",
+        "Muscle Groups Targeted": "Quadriceps, Glutes",
+        "Recommended Sets & Reps": "3 sets of 10 reps per leg",
+        "Video URL": "video_url_acl_7"
+    },
+    {
+        "Exercise Name": "Jump Squats",
+        "Rehab Category": "ACL Recovery",
+        "Difficulty Level": "Advanced",
+        "Description": "Enhances explosive leg power.",
+        "Muscle Groups Targeted": "Quadriceps, Glutes",
+        "Recommended Sets & Reps": "3 sets of 8 reps",
+        "Video URL": "video_url_acl_8"
+    },
+    {
+        "Exercise Name": "Lateral Band Walks",
+        "Rehab Category": "ACL Recovery",
+        "Difficulty Level": "Advanced",
+        "Description": "Improves knee stability in side-to-side movements.",
+        "Muscle Groups Targeted": "Glutes, Hip Abductors",
+        "Recommended Sets & Reps": "3 sets of 12 steps per side",
+        "Video URL": "video_url_acl_9"
+    },
+    {
+        "Exercise Name": "Glute Bridges",
+        "Rehab Category": "Hip Surgery",
+        "Difficulty Level": "Beginner",
+        "Description": "Strengthens glutes and lower back for hip stability.",
+        "Muscle Groups Targeted": "Glutes, Hamstrings",
+        "Recommended Sets & Reps": "3 sets of 10 reps",
+        "Video URL": "video_url_hip_1"
+    },
+    {
+        "Exercise Name": "Side-Lying Leg Raises",
+        "Rehab Category": "Hip Surgery",
+        "Difficulty Level": "Beginner",
+        "Description": "Enhances hip abduction strength.",
+        "Muscle Groups Targeted": "Hip Abductors",
+        "Recommended Sets & Reps": "3 sets of 15 reps",
+        "Video URL": "video_url_hip_2"
+    },
+    {
+        "Exercise Name": "Seated Marching",
+        "Rehab Category": "Hip Surgery",
+        "Difficulty Level": "Beginner",
+        "Description": "Improves hip flexibility and mobility.",
+        "Muscle Groups Targeted": "Hip Flexors",
+        "Recommended Sets & Reps": "3 sets of 12 reps",
+        "Video URL": "video_url_hip_3"
+    },
+    {
+        "Exercise Name": "Standing Hip Abduction",
+        "Rehab Category": "Hip Surgery",
+        "Difficulty Level": "Intermediate",
+        "Description": "Improves lateral hip strength.",
+        "Muscle Groups Targeted": "Hip Abductors",
+        "Recommended Sets & Reps": "3 sets of 12 reps per leg",
+        "Video URL": "video_url_hip_4"
+    },
+    {
+        "Exercise Name": "Clamshells",
+        "Rehab Category": "Hip Surgery",
+        "Difficulty Level": "Intermediate",
+        "Description": "Strengthens hip rotators and abductors.",
+        "Muscle Groups Targeted": "Hip Rotators, Abductors",
+        "Recommended Sets & Reps": "3 sets of 15 reps per leg",
+        "Video URL": "video_url_hip_5"
+    },
+    {
+        "Exercise Name": "Step-Ups",
+        "Rehab Category": "Hip Surgery",
+        "Difficulty Level": "Intermediate",
+        "Description": "Builds strength and balance in the hip and knee.",
+        "Muscle Groups Targeted": "Quadriceps, Glutes",
+        "Recommended Sets & Reps": "3 sets of 10 reps per leg",
+        "Video URL": "video_url_hip_6"
+    },
+    {
+        "Exercise Name": "Bulgarian Split Squats",
+        "Rehab Category": "Hip Surgery",
+        "Difficulty Level": "Advanced",
+        "Description": "Enhances unilateral hip and leg strength.",
+        "Muscle Groups Targeted": "Quadriceps, Glutes",
+        "Recommended Sets & Reps": "3 sets of 10 reps per leg",
+        "Video URL": "video_url_hip_7"
+    },
+    {
+        "Exercise Name": "Lunges",
+        "Rehab Category": "Hip Surgery",
+        "Difficulty Level": "Advanced",
+        "Description": "Improves hip stability and function.",
+        "Muscle Groups Targeted": "Quadriceps, Glutes",
+        "Recommended Sets & Reps": "3 sets of 10 reps per leg",
+        "Video URL": "video_url_hip_8"
+    },
+    {
+        "Exercise Name": "Single-Leg Deadlifts",
+        "Rehab Category": "Hip Surgery",
+        "Difficulty Level": "Advanced",
+        "Description": "Strengthens the posterior chain and improves balance.",
+        "Muscle Groups Targeted": "Hamstrings, Glutes, Core",
+        "Recommended Sets & Reps": "3 sets of 8 reps per leg",
+        "Video URL": "video_url_hip_9"
+    },
+    {
+        "Exercise Name": "Seated Marching",
+        "Rehab Category": "Post-Heart Surgery",
+        "Difficulty Level": "Beginner",
+        "Description": "Increases circulation without overexertion.",
+        "Muscle Groups Targeted": "Legs, Core",
+        "Recommended Sets & Reps": "3 sets of 15 reps",
+        "Video URL": "video_url_cardiac_1"
+    },
+    {
+        "Exercise Name": "Arm Raises",
+        "Rehab Category": "Post-Heart Surgery",
+        "Difficulty Level": "Beginner",
+        "Description": "Improves shoulder mobility and circulation.",
+        "Muscle Groups Targeted": "Shoulders",
+        "Recommended Sets & Reps": "3 sets of 10 reps",
+        "Video URL": "video_url_cardiac_2"
+    },
+    {
+        "Exercise Name": "Leg Extensions",
+        "Rehab Category": "Post-Heart Surgery",
+        "Difficulty Level": "Beginner",
+        "Description": "Enhances lower limb circulation and mobility.",
+        "Muscle Groups Targeted": "Quadriceps",
+        "Recommended Sets & Reps": "3 sets of 12 reps per leg",
+        "Video URL": "video_url_cardiac_3"
+    },
+    {
+        "Exercise Name": "Walking",
+        "Rehab Category": "Post-Heart Surgery",
+        "Difficulty Level": "Intermediate",
+        "Description": "Gradual endurance-building activity.",
+        "Muscle Groups Targeted": "Full Body",
+        "Recommended Sets & Reps": "20-30 minutes at a moderate pace",
+        "Video URL": "video_url_cardiac_4"
+    },
+    {
+        "Exercise Name": "Chair Squats",
+        "Rehab Category": "Post-Heart Surgery",
+        "Difficulty Level": "Intermediate",
+        "Description": "Builds leg strength with minimal strain.",
+        "Muscle Groups Targeted": "Legs, Glutes",
+        "Recommended Sets & Reps": "3 sets of 10 reps",
+        "Video URL": "video_url_cardiac_5"
+    },
+    {
+        "Exercise Name": "Seated Row with Resistance Band",
+        "Rehab Category": "Post-Heart Surgery",
+        "Difficulty Level": "Intermediate",
+        "Description": "Strengthens upper back and arms while promoting circulation.",
+        "Muscle Groups Targeted": "Back, Arms",
+        "Recommended Sets & Reps": "3 sets of 12 reps",
+        "Video URL": "video_url_cardiac_6"
+    },
+    {
+        "Exercise Name": "Stationary Cycling",
+        "Rehab Category": "Post-Heart Surgery",
+        "Difficulty Level": "Advanced",
+        "Description": "Improves cardiovascular endurance safely.",
+        "Muscle Groups Targeted": "Legs, Cardio",
+        "Recommended Sets & Reps": "15-20 minutes at low intensity",
+        "Video URL": "video_url_cardiac_7"
+    },
+    {
+        "Exercise Name": "Step Taps",
+        "Rehab Category": "Post-Heart Surgery",
+        "Difficulty Level": "Advanced",
+        "Description": "Enhances endurance and heart function.",
+        "Muscle Groups Targeted": "Legs, Cardio",
+        "Recommended Sets & Reps": "3 sets of 12 reps per leg",
+        "Video URL": "video_url_cardiac_8"
+    },
+    {
+        "Exercise Name": "Light Resistance Band Chest Press",
+        "Rehab Category": "Post-Heart Surgery",
+        "Difficulty Level": "Advanced",
+        "Description": "Strengthens chest muscles without excessive strain.",
+        "Muscle Groups Targeted": "Chest, Arms",
+        "Recommended Sets & Reps": "3 sets of 10 reps",
+        "Video URL": "video_url_cardiac_9"
+    },
+    {
+        "Exercise Name": "Chair Squats",
+        "Rehab Category": "Cardiac Strength Training",
+        "Difficulty Level": "Beginner",
+        "Description": "Builds lower body strength safely.",
+        "Muscle Groups Targeted": "Legs, Glutes",
+        "Recommended Sets & Reps": "3 sets of 12 reps",
+        "Video URL": "video_url_cardio_strength_1"
+    },
+    {
+        "Exercise Name": "Light Resistance Band Rows",
+        "Rehab Category": "Cardiac Strength Training",
+        "Difficulty Level": "Beginner",
+        "Description": "Strengthens upper body muscles safely.",
+        "Muscle Groups Targeted": "Back, Arms",
+        "Recommended Sets & Reps": "3 sets of 10 reps",
+        "Video URL": "video_url_cardio_strength_2"
+    },
+    {
+        "Exercise Name": "Seated Leg Lifts",
+        "Rehab Category": "Cardiac Strength Training",
+        "Difficulty Level": "Beginner",
+        "Description": "Improves leg strength with minimal exertion.",
+        "Muscle Groups Targeted": "Quadriceps",
+        "Recommended Sets & Reps": "3 sets of 12 reps",
+        "Video URL": "video_url_cardio_strength_3"
+    },
+    {
+        "Exercise Name": "Standing Calf Raises",
+        "Rehab Category": "Cardiac Strength Training",
+        "Difficulty Level": "Intermediate",
+        "Description": "Enhances lower leg strength and stability.",
+        "Muscle Groups Targeted": "Calves",
+        "Recommended Sets & Reps": "3 sets of 15 reps",
+        "Video URL": "video_url_cardio_strength_4"
+    },
+    {
+        "Exercise Name": "Bicep Curls with Resistance Band",
+        "Rehab Category": "Cardiac Strength Training",
+        "Difficulty Level": "Intermediate",
+        "Description": "Strengthens arms with controlled movement.",
+        "Muscle Groups Targeted": "Biceps",
+        "Recommended Sets & Reps": "3 sets of 12 reps",
+        "Video URL": "video_url_cardio_strength_5"
+    },
+    {
+        "Exercise Name": "Standing Shoulder Press (Light Weights or Bands)",
+        "Rehab Category": "Cardiac Strength Training",
+        "Difficulty Level": "Intermediate",
+        "Description": "Improves shoulder and upper body strength.",
+        "Muscle Groups Targeted": "Shoulders, Arms",
+        "Recommended Sets & Reps": "3 sets of 10 reps",
+        "Video URL": "video_url_cardio_strength_6"
+    },
+    {
+        "Exercise Name": "Wall Push-Ups",
+        "Rehab Category": "Cardiac Strength Training",
+        "Difficulty Level": "Advanced",
+        "Description": "Enhances upper body strength without excess strain.",
+        "Muscle Groups Targeted": "Chest, Arms",
+        "Recommended Sets & Reps": "3 sets of 10 reps",
+        "Video URL": "video_url_cardio_strength_7"
+    },
+    {
+        "Exercise Name": "Step-Ups with Controlled Motion",
+        "Rehab Category": "Cardiac Strength Training",
+        "Difficulty Level": "Advanced",
+        "Description": "Builds endurance and leg strength.",
+        "Muscle Groups Targeted": "Quadriceps, Glutes",
+        "Recommended Sets & Reps": "3 sets of 10 reps per leg",
+        "Video URL": "video_url_cardio_strength_8"
+    },
+    {
+        "Exercise Name": "Seated Chest Press with Resistance Band",
+        "Rehab Category": "Cardiac Strength Training",
+        "Difficulty Level": "Advanced",
+        "Description": "Strengthens chest and arm muscles.",
+        "Muscle Groups Targeted": "Chest, Arms",
+        "Recommended Sets & Reps": "3 sets of 10 reps",
+        "Video URL": "video_url_cardio_strength_9"
+    },
+    {
+        "Exercise Name": "Arm Circles",
+        "Rehab Category": "Endurance Recovery",
+        "Difficulty Level": "Beginner",
+        "Description": "Maintains shoulder mobility and light cardio.",
+        "Muscle Groups Targeted": "Shoulders",
+        "Recommended Sets & Reps": "3 sets of 15 reps",
+        "Video URL": "video_url_endurance_1"
+    },
+    {
+        "Exercise Name": "Seated Marching",
+        "Rehab Category": "Endurance Recovery",
+        "Difficulty Level": "Beginner",
+        "Description": "Improves circulation and endurance gradually.",
+        "Muscle Groups Targeted": "Legs, Core",
+        "Recommended Sets & Reps": "3 sets of 15 reps",
+        "Video URL": "video_url_endurance_2"
+    },
+    {
+        "Exercise Name": "Toe Taps",
+        "Rehab Category": "Endurance Recovery",
+        "Difficulty Level": "Beginner",
+        "Description": "Improves coordination and leg endurance.",
+        "Muscle Groups Targeted": "Legs",
+        "Recommended Sets & Reps": "3 sets of 12 reps per leg",
+        "Video URL": "video_url_endurance_3"
+    },
+    {
+        "Exercise Name": "Step Taps",
+        "Rehab Category": "Endurance Recovery",
+        "Difficulty Level": "Intermediate",
+        "Description": "Improves endurance with light stepping.",
+        "Muscle Groups Targeted": "Legs, Cardio",
+        "Recommended Sets & Reps": "3 sets of 12 reps per leg",
+        "Video URL": "video_url_endurance_4"
+    },
+    {
+        "Exercise Name": "March in Place",
+        "Rehab Category": "Endurance Recovery",
+        "Difficulty Level": "Intermediate",
+        "Description": "Builds stamina while being easy on joints.",
+        "Muscle Groups Targeted": "Legs, Core",
+        "Recommended Sets & Reps": "3 sets of 30 seconds",
+        "Video URL": "video_url_endurance_5"
+    },
+    {
+        "Exercise Name": "Slow Jump Rope (No Rope)",
+        "Rehab Category": "Endurance Recovery",
+        "Difficulty Level": "Intermediate",
+        "Description": "Enhances cardiovascular health in a controlled manner.",
+        "Muscle Groups Targeted": "Full Body",
+        "Recommended Sets & Reps": "3 sets of 10 reps",
+        "Video URL": "video_url_endurance_6"
+    },
+    {
+        "Exercise Name": "Stationary Cycling",
+        "Rehab Category": "Endurance Recovery",
+        "Difficulty Level": "Advanced",
+        "Description": "Enhances cardiovascular endurance.",
+        "Muscle Groups Targeted": "Legs, Cardio",
+        "Recommended Sets & Reps": "15-20 minutes at moderate intensity",
+        "Video URL": "video_url_endurance_7"
+    },
+    {
+        "Exercise Name": "Low-Impact Jumping Jacks",
+        "Rehab Category": "Endurance Recovery",
+        "Difficulty Level": "Advanced",
+        "Description": "Improves endurance without excess strain.",
+        "Muscle Groups Targeted": "Full Body",
+        "Recommended Sets & Reps": "3 sets of 12 reps",
+        "Video URL": "video_url_endurance_8"
+    },
+    {
+        "Exercise Name": "Incline Walking on Treadmill",
+        "Rehab Category": "Endurance Recovery",
+        "Difficulty Level": "Advanced",
+        "Description": "Builds stamina with controlled effort.",
+        "Muscle Groups Targeted": "Legs, Cardio",
+        "Recommended Sets & Reps": "10-15 minutes at a slight incline",
+        "Video URL": "video_url_endurance_9"
+    },
+    {
+        "Exercise Name": "Hand Squeeze",
+        "Rehab Category": "Stroke Recovery",
+        "Difficulty Level": "Beginner",
+        "Description": "Improves grip strength and hand mobility.",
+        "Muscle Groups Targeted": "Hands",
+        "Recommended Sets & Reps": "3 sets of 10 reps",
+        "Video URL": "video_url_stroke_1"
+    },
+    {
+        "Exercise Name": "Ankle Dorsiflexion",
+        "Rehab Category": "Stroke Recovery",
+        "Difficulty Level": "Beginner",
+        "Description": "Restores foot movement and control.",
+        "Muscle Groups Targeted": "Calves, Ankles",
+        "Recommended Sets & Reps": "3 sets of 12 reps",
+        "Video URL": "video_url_stroke_2"
+    },
+    {
+        "Exercise Name": "Chair Reaching Exercises",
+        "Rehab Category": "Stroke Recovery",
+        "Difficulty Level": "Beginner",
+        "Description": "Enhances balance and coordination.",
+        "Muscle Groups Targeted": "Core, Arms",
+        "Recommended Sets & Reps": "3 sets of 10 reps",
+        "Video URL": "video_url_stroke_3"
+    },
+    {
+        "Exercise Name": "Seated Marching",
+        "Rehab Category": "Stroke Recovery",
+        "Difficulty Level": "Intermediate",
+        "Description": "Improves lower limb mobility and circulation.",
+        "Muscle Groups Targeted": "Legs, Core",
+        "Recommended Sets & Reps": "3 sets of 15 reps",
+        "Video URL": "video_url_stroke_4"
+    },
+    {
+        "Exercise Name": "Assisted Shoulder Raises",
+        "Rehab Category": "Stroke Recovery",
+        "Difficulty Level": "Intermediate",
+        "Description": "Strengthens the shoulders and improves mobility.",
+        "Muscle Groups Targeted": "Shoulders",
+        "Recommended Sets & Reps": "3 sets of 10 reps",
+        "Video URL": "video_url_stroke_5"
+    },
+    {
+        "Exercise Name": "Side-Lying Leg Raises",
+        "Rehab Category": "Stroke Recovery",
+        "Difficulty Level": "Intermediate",
+        "Description": "Enhances hip strength and stability.",
+        "Muscle Groups Targeted": "Hip Abductors",
+        "Recommended Sets & Reps": "3 sets of 12 reps per leg",
+        "Video URL": "video_url_stroke_6"
+    },
+    {
+        "Exercise Name": "Wall Push-Ups",
+        "Rehab Category": "Stroke Recovery",
+        "Difficulty Level": "Advanced",
+        "Description": "Improves upper body strength and stability.",
+        "Muscle Groups Targeted": "Chest, Arms",
+        "Recommended Sets & Reps": "3 sets of 10 reps",
+        "Video URL": "video_url_stroke_7"
+    },
+    {
+        "Exercise Name": "Step-Ups with Hand Support",
+        "Rehab Category": "Stroke Recovery",
+        "Difficulty Level": "Advanced",
+        "Description": "Enhances coordination and leg strength.",
+        "Muscle Groups Targeted": "Quadriceps, Glutes",
+        "Recommended Sets & Reps": "3 sets of 10 reps per leg",
+        "Video URL": "video_url_stroke_8"
+    },
+    {
+        "Exercise Name": "Standing Balance Exercises",
+        "Rehab Category": "Stroke Recovery",
+        "Difficulty Level": "Advanced",
+        "Description": "Improves overall balance and stability.",
+        "Muscle Groups Targeted": "Core, Legs",
+        "Recommended Sets & Reps": "3 sets of 15 seconds",
+        "Video URL": "video_url_stroke_9"
+    },
+    {
+        "Exercise Name": "Seated Trunk Rotations",
+        "Rehab Category": "Spinal Injury Rehab",
+        "Difficulty Level": "Beginner",
+        "Description": "Improves spinal mobility safely.",
+        "Muscle Groups Targeted": "Core, Back",
+        "Recommended Sets & Reps": "3 sets of 10 reps",
+        "Video URL": "video_url_spinal_1"
+    },
+    {
+        "Exercise Name": "Wall Slides",
+        "Rehab Category": "Spinal Injury Rehab",
+        "Difficulty Level": "Beginner",
+        "Description": "Strengthens postural muscles.",
+        "Muscle Groups Targeted": "Back, Shoulders",
+        "Recommended Sets & Reps": "3 sets of 12 reps",
+        "Video URL": "video_url_spinal_2"
+    },
+    {
+        "Exercise Name": "Pelvic Tilts",
+        "Rehab Category": "Spinal Injury Rehab",
+        "Difficulty Level": "Beginner",
+        "Description": "Restores spinal flexibility and core control.",
+        "Muscle Groups Targeted": "Core, Lower Back",
+        "Recommended Sets & Reps": "3 sets of 10 reps",
+        "Video URL": "video_url_spinal_3"
+    },
+    {
+        "Exercise Name": "Bridges",
+        "Rehab Category": "Spinal Injury Rehab",
+        "Difficulty Level": "Intermediate",
+        "Description": "Strengthens glutes and lower back muscles for spinal support.",
+        "Muscle Groups Targeted": "Glutes, Lower Back",
+        "Recommended Sets & Reps": "3 sets of 12 reps",
+        "Video URL": "video_url_spinal_4"
+    },
+    {
+        "Exercise Name": "Seated Cat-Cow Stretches",
+        "Rehab Category": "Spinal Injury Rehab",
+        "Difficulty Level": "Intermediate",
+        "Description": "Improves spinal flexibility and posture.",
+        "Muscle Groups Targeted": "Back, Core",
+        "Recommended Sets & Reps": "3 sets of 10 reps",
+        "Video URL": "video_url_spinal_5"
+    },
+    {
+        "Exercise Name": "Standing Hip Extensions",
+        "Rehab Category": "Spinal Injury Rehab",
+        "Difficulty Level": "Intermediate",
+        "Description": "Enhances spinal stability and lower back strength.",
+        "Muscle Groups Targeted": "Lower Back, Hips",
+        "Recommended Sets & Reps": "3 sets of 12 reps per leg",
+        "Video URL": "video_url_spinal_6"
+    },
+    {
+        "Exercise Name": "Superman Exercise",
+        "Rehab Category": "Spinal Injury Rehab",
+        "Difficulty Level": "Advanced",
+        "Description": "Strengthens lower back and core for spinal stability.",
+        "Muscle Groups Targeted": "Lower Back, Core",
+        "Recommended Sets & Reps": "3 sets of 10 reps",
+        "Video URL": "video_url_spinal_7"
+    },
+    {
+        "Exercise Name": "Bird-Dog Exercise",
+        "Rehab Category": "Spinal Injury Rehab",
+        "Difficulty Level": "Advanced",
+        "Description": "Improves balance and core strength for spinal support.",
+        "Muscle Groups Targeted": "Core, Back",
+        "Recommended Sets & Reps": "3 sets of 10 reps per side",
+        "Video URL": "video_url_spinal_8"
+    },
+    {
+        "Exercise Name": "Side Planks",
+        "Rehab Category": "Spinal Injury Rehab",
+        "Difficulty Level": "Advanced",
+        "Description": "Builds core stability and spinal endurance.",
+        "Muscle Groups Targeted": "Core, Obliques",
+        "Recommended Sets & Reps": "3 sets of 15 seconds per side",
+        "Video URL": "video_url_spinal_9"
+    },
+    {
+        "Exercise Name": "Finger-to-Nose Touch",
+        "Rehab Category": "Cognitive & Motor Skills",
+        "Difficulty Level": "Beginner",
+        "Description": "Improves hand-eye coordination.",
+        "Muscle Groups Targeted": "Arms, Hands",
+        "Recommended Sets & Reps": "3 sets of 15 reps",
+        "Video URL": "video_url_cognitive_1"
+    },
+    {
+        "Exercise Name": "Balance Standing",
+        "Rehab Category": "Cognitive & Motor Skills",
+        "Difficulty Level": "Beginner",
+        "Description": "Enhances balance and proprioception.",
+        "Muscle Groups Targeted": "Legs, Core",
+        "Recommended Sets & Reps": "3 sets of 10 seconds",
+        "Video URL": "video_url_cognitive_2"
+    },
+    {
+        "Exercise Name": "Seated Coordination Drills",
+        "Rehab Category": "Cognitive & Motor Skills",
+        "Difficulty Level": "Beginner",
+        "Description": "Enhances reaction time and movement control.",
+        "Muscle Groups Targeted": "Full Body",
+        "Recommended Sets & Reps": "3 sets of 12 reps",
+        "Video URL": "video_url_cognitive_3"
+    },
+    {
+        "Exercise Name": "Heel-to-Toe Walk",
+        "Rehab Category": "Cognitive & Motor Skills",
+        "Difficulty Level": "Intermediate",
+        "Description": "Improves balance and walking control.",
+        "Muscle Groups Targeted": "Legs, Core",
+        "Recommended Sets & Reps": "3 sets of 12 steps per leg",
+        "Video URL": "video_url_cognitive_4"
+    },
+    {
+        "Exercise Name": "Reaction Ball Catching",
+        "Rehab Category": "Cognitive & Motor Skills",
+        "Difficulty Level": "Intermediate",
+        "Description": "Enhances reflexes and hand-eye coordination.",
+        "Muscle Groups Targeted": "Arms, Hands",
+        "Recommended Sets & Reps": "3 sets of 10 catches",
+        "Video URL": "video_url_cognitive_5"
+    },
+    {
+        "Exercise Name": "Single-Leg Stand with Eyes Closed",
+        "Rehab Category": "Cognitive & Motor Skills",
+        "Difficulty Level": "Intermediate",
+        "Description": "Challenges balance and spatial awareness.",
+        "Muscle Groups Targeted": "Legs, Core",
+        "Recommended Sets & Reps": "3 sets of 10 seconds per leg",
+        "Video URL": "video_url_cognitive_6"
+    },
+    {
+        "Exercise Name": "Obstacle Course Walking",
+        "Rehab Category": "Cognitive & Motor Skills",
+        "Difficulty Level": "Advanced",
+        "Description": "Enhances agility and cognitive-motor coordination.",
+        "Muscle Groups Targeted": "Full Body",
+        "Recommended Sets & Reps": "3 rounds of 1 minute each",
+        "Video URL": "video_url_cognitive_7"
+    },
+    {
+        "Exercise Name": "Dual-Task Training (Walking + Counting Backward)",
+        "Rehab Category": "Cognitive & Motor Skills",
+        "Difficulty Level": "Advanced",
+        "Description": "Trains cognitive-motor multitasking.",
+        "Muscle Groups Targeted": "Legs, Brain",
+        "Recommended Sets & Reps": "3 rounds of 20 seconds",
+        "Video URL": "video_url_cognitive_8"
+    },
+    {
+        "Exercise Name": "Tandem Walking on a Line",
+        "Rehab Category": "Cognitive & Motor Skills",
+        "Difficulty Level": "Advanced",
+        "Description": "Improves precision in movement and postural control.",
+        "Muscle Groups Targeted": "Legs, Core",
+        "Recommended Sets & Reps": "3 sets of 10 steps forward and backward",
+        "Video URL": "video_url_cognitive_9"
+    }
+]

@@ -1,20 +1,287 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Exercise Form Analysis</title>
-    <link
-      rel="stylesheet"
-      href="{{ url_for('static', filename='style.css') }}"
-    />
-  </head>
-  <body>
-    <h1>Exercise Form Analysis</h1>
-    <div class="container">
-      <a href="{{ url_for('squat') }}" class="button">Squat Analysis</a>
-      <a href="{{ url_for('deadlift') }}" class="button">Deadlift Analysis</a>
-      <a href="{{ url_for('pushup') }}" class="button">Pushup Analysis</a>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post-Workout Recovery</title>
+    <style>
+        /* Font import */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+        /* Global reset */
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: 'Poppins', sans-serif;
+        }
+
+        /* Body styling */
+        body {
+          min-height: 100vh;
+          background-color: #121212;
+          color: #ffffff;
+          padding: 30px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          background-image: linear-gradient(45deg, #1a1a1a 25%, #121212 25%, #121212 50%, #1a1a1a 50%, #1a1a1a 75%, #121212 75%, #121212 100%);
+          background-size: 20px 20px;
+        }
+
+        /* Heading styling */
+        h1, h2, h3 {
+          color: #ffffff;
+          text-align: center;
+          margin-bottom: 30px;
+          letter-spacing: 1px;
+          position: relative;
+        }
+
+        h1 {
+          font-size: 2.5rem;
+          text-transform: uppercase;
+          padding-bottom: 15px;
+        }
+
+        h1::after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 80px;
+          height: 4px;
+          background-color: #ff0000;
+          border-radius: 2px;
+        }
+
+        /* Button container */
+        .button-container {
+          display: flex;
+          gap: 20px;
+          margin-bottom: 30px;
+          width: 100%;
+          max-width: 640px;
+          justify-content: center;
+        }
+
+        /* Button styling */
+        button {
+          background-color: #ff0000;
+          color: white;
+          border: none;
+          padding: 12px 24px;
+          border-radius: 4px;
+          font-weight: 600;
+          font-size: 1rem;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          text-transform: uppercase;
+          letter-spacing: 0.5px;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        button:hover {
+          background-color: #cc0000;
+          transform: translateY(-2px);
+          box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        button:active {
+          transform: translateY(0);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Section styling */
+        #liveSection, #uploadSection, #videoContainer {
+          width: 100%;
+          max-width: 640px;
+          background-color: #1e1e1e;
+          border-radius: 8px;
+          padding: 20px;
+          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+          border: 1px solid #333;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 15px;
+          margin-bottom: 20px;
+        }
+
+        /* Image and video styling */
+        #liveFeed, #videoFeed, video {
+          width: 100%;
+          height: auto;
+          border-radius: 4px;
+          border: 2px solid #ff0000;
+          background-color: #000000;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        /* File input styling */
+        input[type="file"] {
+          width: 100%;
+          background-color: #2a2a2a;
+          color: white;
+          padding: 10px;
+          border-radius: 4px;
+          border: 1px solid #444;
+          cursor: pointer;
+        }
+
+        /* Custom file input styling */
+        input[type="file"]::file-selector-button {
+          background-color: #ff0000;
+          color: white;
+          border: none;
+          padding: 8px 16px;
+          border-radius: 4px;
+          margin-right: 15px;
+          cursor: pointer;
+          transition: background-color 0.3s;
+        }
+
+        input[type="file"]::file-selector-button:hover {
+          background-color: #cc0000;
+        }
+
+        /* Feedback text styling */
+        #feedback, #ttsText {
+          color: white;
+          background-color: #2a2a2a;
+          padding: 15px;
+          border-radius: 4px;
+          border-left: 4px solid #ff0000;
+          margin-top: 15px;
+          width: 100%;
+          font-size: 0.9rem;
+          line-height: 1.5;
+        }
+
+        /* Select styling */
+        select {
+          background-color: #2a2a2a;
+          color: white;
+          padding: 10px;
+          border-radius: 4px;
+          border: 1px solid #444;
+          margin-right: 10px;
+          font-size: 1rem;
+        }
+
+        /* Form group */
+        .form-group {
+          display: flex;
+          align-items: center;
+          margin-bottom: 20px;
+          width: 100%;
+          max-width: 640px;
+        }
+
+        /* Label styling */
+        label {
+          margin-right: 10px;
+          font-weight: 500;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+          body {
+            padding: 15px;
+          }
+          
+          h1 {
+            font-size: 2rem;
+          }
+          
+          .button-container {
+            flex-direction: column;
+            gap: 10px;
+          }
+          
+          button {
+            width: 100%;
+            padding: 10px 20px;
+          }
+
+          .form-group {
+            flex-direction: column;
+            align-items: flex-start;
+          }
+
+          select {
+            width: 100%;
+            margin-top: 5px;
+            margin-bottom: 10px;
+          }
+        }
+
+        @media (max-width: 480px) {
+          h1, h2 {
+            font-size: 1.75rem;
+          }
+          
+          #liveSection, #uploadSection, #videoContainer {
+            padding: 15px;
+          }
+        }
+    </style>
+</head>
+<body>
+    <h1>Post-Workout Recovery</h1>
+    <div class="form-group">
+        <label for="workoutType">Select Workout Type:</label>
+        <select id="workoutType">
+            <option value="cardio">Cardio</option>
+            <option value="strength">Strength</option>
+            <option value="yoga">Yoga</option>
+            <option value="general">General</option>
+        </select>
+        <button onclick="fetchRecovery()">Get Recovery Suggestion</button>
     </div>
-  </body>
+    
+    <h2>Recommended Stretching Videos</h2>
+    <div id="videoContainer"></div>  <!-- Multiple videos will appear here -->
+    
+    <h3>Instructions:</h3>
+    <p id="ttsText">Select a workout type and press "Get Recovery Suggestion".</p>
+    <div class="button-container">
+        <button onclick="playTTS()">Play Instructions</button>
+    </div>
+
+    <script>
+        function fetchRecovery() {
+            let workoutType = document.getElementById("workoutType").value;
+            
+            fetch("/get_recovery", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ workout_type: workoutType })
+            })
+            .then(response => response.json())
+            .then(data => {
+                let videoContainer = document.getElementById("videoContainer");
+                videoContainer.innerHTML = ""; // Clear old videos
+                
+                data.video_urls.forEach(videoSrc => {
+                    let videoElement = document.createElement("video");
+                    videoElement.src = videoSrc;
+                    videoElement.controls = true;
+                    videoElement.width = 600;
+                    videoContainer.appendChild(videoElement);
+                });
+
+                document.getElementById("ttsText").innerText = data.tts_instruction;
+            });
+        }
+
+        function playTTS() {
+            let text = document.getElementById("ttsText").innerText;
+            let speech = new SpeechSynthesisUtterance(text);
+            speech.lang = "en-US";
+            window.speechSynthesis.speak(speech);
+        }
+    </script>
+</body>
 </html>

@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neurological Rehabilitation</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #000;
+            font-family: Arial, sans-serif;
+        }
+        
+        section {
+            position: relative;
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(to bottom, #000000, #0f0f0f);
+            padding: 20px 0;
+        }
+        
+        .content {
+            position: relative;
+            width: 400px;
+            background: #ffffff; /* White background for the main box */
+            box-shadow: 0 15px 30px rgba(255, 94, 0, 0.2);
+            border-radius: 10px;
+            padding: 40px;
+            text-align: center;
+            color: #000; /* Black text for better contrast with white bg */
+        }
+        
+        .content h1 {
+            color: #ff5e00;
+            margin-bottom: 20px;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        
+        .inputBox {
+            position: relative;
+            width: 100%;
+            margin-top: 20px;
+        }
+        
+        select, button, a {
+            width: 100%;
+            padding: 10px;
+            outline: none;
+            background: transparent;
+            border: 1px solid #ff5e00;
+            border-radius: 5px;
+            color: #000; /* Black text for better contrast */
+            margin-top: 5px;
+            font-size: 16px;
+        }
+        
+        select option {
+            background: #fff;
+            color: #000;
+        }
+        
+        button {
+            background: linear-gradient(45deg, #ff5e00, #661f0071);
+            cursor: pointer;
+            color: white;
+            font-weight: bold;
+        }
+        
+        button:hover {
+            background: #ff5e00;
+        }
+        
+        .exercise-card {
+            background: rgba(240, 240, 240, 0.8); /* Light gray background for cards */
+            padding: 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+            text-align: left;
+            border: 1px solid #ff5e00;
+            display: flex;
+            align-items: center;
+        }
+        
+        .checkbox-custom {
+            width: 20px;
+            height: 20px;
+            border: 1px solid #ff5e00;
+            display: inline-block;
+            position: relative;
+            margin-right: 10px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        
+        .checkbox-custom.checked:after {
+            content: '';
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background: #ff5e00;
+            top: 4px;
+            left: 4px;
+            border-radius: 1px;
+        }
+        
+        .nav-buttons {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+        }
+        
+        .nav-button {
+            width: 45%;
+        }
+        
+        .day-indicator {
+            color: #ff5e00;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        
+        .back-link {
+            display: block;
+            text-decoration: none;
+            color: #ff5e00;
+            border: none;
+            margin-top: 20px;
+            text-align: center;
+        }
+        
+        #upgradePrompt {
+            margin-top: 20px;
+            display: none;
+        }
+        
+        .upgrade-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+        
+        .upgrade-button {
+            width: 48%;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="content">
+            <h1>Neurological Rehabilitation</h1>
+            
+            <!-- Dropdown to Select Rehabilitation Type -->
+            <div class="inputBox">
+                <select id="rehabSelect">
+                    <option value="">Select Your Rehab Type</option>
+                    <option value="Stroke Recovery">Stroke Recovery</option>
+                    <option value="Spinal Injury Rehab">Spinal Injury Rehab</option>
+                    <option value="Cognitive & Motor Skills">Cognitive & Motor Skills Training</option>
+                </select>
+            </div>
+
+            <!-- Display Exercises Here -->
+            <div id="exerciseList" class="exercise-list"></div>
+
+            <!-- Upgrade Prompt -->
+            <div id="upgradePrompt">
+                <p style="color: #ff5e00; font-size: 18px;">Are these exercises easy?</p>
+                <div class="upgrade-buttons">
+                    <button id="yesUpgrade" class="upgrade-button">Yes</button>
+                    <button id="noRepeat" class="upgrade-button">No</button>
+                </div>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <div class="nav-buttons">
+                <button id="prevDayBtn" class="nav-button">⬅ Previous Day</button>
+                <span id="dayIndicator" class="day-indicator"></span>
+                <button id="nextDayBtn" class="nav-button">Next Day ➡</button>
+            </div>
+
+            <a href="index.html" class="back-link">⬅ Back to Home</a>
+        </div>
+    </section>
+
+    <script>
+        let currentDay = parseInt(localStorage.getItem("currentDay")) || 1;
+        let currentRehabType = localStorage.getItem("currentRehabType") || "";
+        let currentDifficulty = localStorage.getItem("currentDifficulty") || "Beginner"; // Start with Beginner
+        let completedExercises = JSON.parse(localStorage.getItem("completedExercises")) || {};
+        const difficulties = ["Beginner", "Intermediate", "Advanced"];
+        currentDifficulty="Beginner"
+
+        document.getElementById("rehabSelect").value = currentRehabType;
+
+        document.getElementById("rehabSelect").addEventListener("change", function() {
+            currentRehabType = this.value;
+            localStorage.setItem("currentRehabType", currentRehabType);
+            currentDay = 1;
+            localStorage.setItem("currentDay", currentDay);
+            loadExercises();
+        });
+
+        document.getElementById("prevDayBtn").addEventListener("click", function() {
+            if (currentDay > 1) {
+                currentDay--;
+                localStorage.setItem("currentDay", currentDay);
+                loadExercises();
+            }
+        });
+
+        document.getElementById("nextDayBtn").addEventListener("click", function() {
+            currentDay++;
+            localStorage.setItem("currentDay", currentDay);
+            loadExercises();
+        });
+
+        document.getElementById("yesUpgrade").addEventListener("click", function() {
+            let currentIndex = difficulties.indexOf(currentDifficulty);
+            if (currentIndex < difficulties.length - 1) {
+                currentDifficulty = difficulties[currentIndex + 1]; 
+                localStorage.setItem("currentDifficulty", currentDifficulty);
+                localStorage.setItem("currentDay", 1);
+                loadExercises();
+            } else {
+                alert("You have completed all levels!");
+            }
+        });
+
+        document.getElementById("noRepeat").addEventListener("click", function() {
+            alert("Repeating the same level for another week.");
+            localStorage.setItem("currentDay", 1);
+            loadExercises();
+        });
+
+        function loadExercises() {
+            if (!currentRehabType) return;
+
+            document.getElementById("dayIndicator").innerText = `Day ${currentDay} (${currentDifficulty})`;
+
+            fetch("complete_rehab.json")  // Load neurological rehab exercises
+                .then(response => response.json())
+                .then(data => {
+                    let filteredExercises = data.filter(ex => 
+                        ex["Rehab Category"] === currentRehabType && ex["Difficulty Level"] === currentDifficulty
+                    );
+
+                    displayExercises(filteredExercises);
+                })
+                .catch(error => console.error("Error loading JSON:", error));
+
+            document.getElementById("upgradePrompt").style.display = (currentDay % 7 === 0) ? "block" : "none";
+        }
+
+        function displayExercises(exercises) {
+            let exerciseList = document.getElementById("exerciseList");
+            exerciseList.innerHTML = "";
+
+            if (exercises.length === 0) {
+                exerciseList.innerHTML = "<p style='color: #ff5e00; text-align: center;'>No exercises found.</p>";
+                return;
+            }
+
+            exercises.forEach((ex, index) => {
+                let isChecked = completedExercises[currentDay]?.includes(ex["Exercise Name"]) || false;
+
+                let exerciseCard = document.createElement('div');
+                exerciseCard.className = 'exercise-card';
+                exerciseCard.innerHTML = `
+                    <div class="checkbox-custom ${isChecked ? 'checked' : ''}" onclick="toggleCompletion(${index}, '${ex["Exercise Name"]}')"></div>
+                    <div>
+                        <h3 style="color: #ff5e00; margin: 0 0 5px 0;">${ex["Exercise Name"]}</h3>
+                        <p style="margin: 5px 0; font-size: 14px;">${ex["Description"]}</p>
+                        <p style="margin: 5px 0; font-size: 12px; color: #333;"><strong>Muscle Groups:</strong> ${ex["Muscle Groups Targeted"]}</p>
+                        <p style="margin: 5px 0; font-size: 12px; color: #333;"><strong>Sets & Reps:</strong> ${ex["Recommended Sets & Reps"]}</p>
+                    </div>
+                `;
+                exerciseList.appendChild(exerciseCard);
+            });
+        }
+
+        function toggleCompletion(index, exerciseName) {
+            if (!completedExercises[currentDay]) {
+                completedExercises[currentDay] = [];
+            }
+
+            let exerciseList = completedExercises[currentDay];
+            let checkboxes = document.querySelectorAll('.checkbox-custom');
+            let checkbox = checkboxes[index];
+            
+            if (checkbox.classList.contains('checked')) {
+                checkbox.classList.remove('checked');
+                let idx = exerciseList.indexOf(exerciseName);
+                if (idx !== -1) {
+                    exerciseList.splice(idx, 1);
+                }
+            } else {
+                checkbox.classList.add('checked');
+                if (!exerciseList.includes(exerciseName)) {
+                    exerciseList.push(exerciseName);
+                }
+            }
+
+            localStorage.setItem("completedExercises", JSON.stringify(completedExercises));
+        }
+
+        loadExercises();
+    </script>
+</body>
+</html>
