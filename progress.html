@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Progress Overview</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 20px;
+      }
+      .chart-container {
+        width: 80%;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Overall Progress Overview</h2>
+
+    <!-- Calories per Food Chart -->
+    <div class="chart-container">
+      <h3>Calories Intake by Food</h3>
+      <canvas id="foodCaloriesChart"></canvas>
+    </div>
+
+    <!-- Calories Burned by Exercise Chart -->
+    <div class="chart-container">
+      <h3>Calories Burned by Exercise</h3>
+      <canvas id="exerciseCaloriesChart"></canvas>
+    </div>
+
+    <script>
+      fetch("/api/progress")
+        .then((response) => response.json())
+        .then((data) => {
+          // Calories per Food Chart
+          const foodCaloriesCtx = document
+            .getElementById("foodCaloriesChart")
+            .getContext("2d");
+          new Chart(foodCaloriesCtx, {
+            type: "bar",
+            data: {
+              labels: data.food_names,
+              datasets: [
+                {
+                  label: "Calories (kcal)",
+                  data: data.food_calories,
+                  backgroundColor: "#4CAF50",
+                  borderWidth: 1,
+                },
+              ],
+            },
+          });
+
+          // Calories Burned by Exercise Chart
+          const exerciseCaloriesCtx = document
+            .getElementById("exerciseCaloriesChart")
+            .getContext("2d");
+          new Chart(exerciseCaloriesCtx, {
+            type: "bar",
+            data: {
+              labels: data.exercise_names,
+              datasets: [
+                {
+                  label: "Calories Burned",
+                  data: data.exercise_calories,
+                  backgroundColor: "#FF5733",
+                  borderWidth: 1,
+                },
+              ],
+            },
+          });
+        })
+        .catch((error) => console.error("Error fetching data:", error));
+    </script>
+  </body>
+</html>

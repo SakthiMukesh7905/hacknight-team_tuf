@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Push-Up Workout</title>
+  </head>
+  <body>
+    <h1>Push-Up Analysis</h1>
+
+    <div class="button-container">
+      <button onclick="toggleMode('live')">Live Camera</button>
+      <button onclick="toggleMode('upload')">Upload Video</button>
+      <button onclick="storeWorkout('pushups')">Save Workout</button>
+    </div>
+
+    <video width="640" height="480" controls>
+      <source
+        src="{{ url_for('uploaded_file', filename='your_video.mp4') }}"
+        type="video/mp4"
+      />
+      Your browser does not support the video tag.
+    </video>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </body>
+</html>

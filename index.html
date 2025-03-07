@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise Form Analysis</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <h1>Exercise Form Analysis</h1>
+    <div class="container">
+      <a href="{{ url_for('squat') }}" class="button">Squat Analysis</a>
+      <a href="{{ url_for('deadlift') }}" class="button">Deadlift Analysis</a>
+      <a href="{{ url_for('pushup') }}" class="button">Pushup Analysis</a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness Tracker</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #000;
+      font-family: Arial, sans-serif;
+    }
+    
+    section {
+      position: relative;
+      width: 100%;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(to bottom, #000000, #0f0f0f);
+      padding: 20px 0;
+    }
+    
+    .content {
+      position: relative;
+      width: 80%;
+      max-width: 800px;
+      background: #ffffff;
+      box-shadow: 0 15px 30px rgba(255, 94, 0, 0.2);
+      border-radius: 10px;
+      padding: 40px;
+      color: #000;
+    }
+    
+    h2 {
+      color: #ff5e00;
+      margin-bottom: 20px;
+      font-size: 24px;
+      font-weight: 600;
+    }
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      background: white;
+    }
+    
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    
+    th {
+      background: #ff5e00;
+      color: white;
+    }
+    
+    .food-suggestions {
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 5px 15px rgba(255, 94, 0, 0.1);
+      margin-top: 20px;
+      border: 1px solid #ff5e00;
+    }
+    
+    .food-suggestions ul {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .food-suggestions li {
+      padding: 8px 0;
+      font-size: 16px;
+      color: #333;
+      border-bottom: 1px solid #eee;
+    }
+    
+    p {
+      color: #333;
+      margin: 15px 0;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <div class="content">
+      <h2>Exercise Logs</h2>
+      {% if exercise_logs %}
+      <table>
+        <tr>
+          <th>Exercise</th>
+          <th>Duration (mins)</th>
+          <th>Calories Burned</th>
+        </tr>
+        {% for exercise, duration, burned_calories in exercise_logs %}
+        <tr>
+          <td>{{ exercise }}</td>
+          <td>{{ duration }}</td>
+          <td>{{ burned_calories }}</td>
+        </tr>
+        {% endfor %}
+      </table>
+      {% else %}
+      <p>No exercise data available.</p>
+      {% endif %}
+
+      <div class="food-suggestions">
+        <h2>Food Recommendations 🍽</h2>
+        {% if food_suggestions %}
+        <ul>
+          {% for food in food_suggestions %}
+          <li>{{ food }}</li>
+          {% endfor %}
+        </ul>
+        {% else %}
+        <p>No food recommendations available.</p>
+        {% endif %}
+      </div>
+    </div>
+  </section>
+</body>
+</html>

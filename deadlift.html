@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deadlift Analysis</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <h1>Deadlift Analysis</h1>
+
+    <div class="button-container">
+      <button onclick="toggleMode('live')">Live Camera</button>
+      <button onclick="toggleMode('upload')">Upload Video</button>
+      <button onclick="storeWorkout('deadlift')">Save Workout</button>
+    </div>
+
+    <div id="liveSection">
+      <img id="liveFeed" src="/live_deadlift" width="640" height="480" />
+    </div>
+
+    <div id="uploadSection" style="display: none">
+      <input type="file" id="videoUpload" accept="video/*" />
+      <button onclick="uploadVideo('deadlift')">Upload</button>
+      <img
+        id="videoFeed"
+        src=""
+        width="640"
+        height="480"
+        style="display: none"
+      />
+      <p id="feedback"></p>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </body>
+</html>
